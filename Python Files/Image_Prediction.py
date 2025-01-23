@@ -17,7 +17,7 @@ model.fc = nn.Sequential(
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
 
-model.load_state_dict(torch.load('/Users/mrinal/Desktop/Models/resnet50_epoch_6.pth'))
+model.load_state_dict(torch.load('Enter the path of Trained Model'))
 
 image_transforms = transforms.Compose([
     transforms.Resize(640), 
