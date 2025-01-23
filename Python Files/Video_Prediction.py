@@ -20,7 +20,7 @@ model.fc = nn.Sequential(
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
 
-model.load_state_dict(torch.load('/Users/mrinal/Desktop/ML_Project/Models/resnet50_epoch_9.pth')) 
+model.load_state_dict(torch.load('Load Model')) 
 
 #Image Transformation
 image_transforms = transforms.Compose([
