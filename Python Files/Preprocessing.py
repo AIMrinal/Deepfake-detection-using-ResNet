@@ -73,10 +73,10 @@ def preprocess(input_image_path, output_path):
         cv2.imwrite(output_image_path, augmented_image)
 
 # Input directory containing images to preprocess
-input_dir = "/Users/mrinal/Desktop/Datasets/real_vs_fake/train/real"
+input_dir = "Input Directory"
 
 # Output directory to save preprocessed images
-output_dir = "/Users/mrinal/Desktop/Datasets/Preprocessed/Ds-1/Real"
+output_dir = "Output Directory"
 os.makedirs(output_dir, exist_ok=True)  # Create the output directory if it doesn't exist
 
 # Process each image in the input directory with progress bar
