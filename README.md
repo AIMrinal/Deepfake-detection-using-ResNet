@@ -31,6 +31,21 @@ This project focuses on developing a streamlined, efficient, and high-performing
    - Separate programs are implemented for image and video classification.
 
 ---
+## Training Progress
+
+| **Epoch** | **Training Accuracy** | **Training Loss** | **Validation Accuracy** | **Validation Loss** |
+|-----------|------------------------|--------------------|--------------------------|----------------------|
+| 1         | 61.63%                | 0.663              | 53.00%                  | 0.746                |
+| 2         | 58.18%                | 0.673              | 52.50%                  | 0.685                |
+| 3         | 70.57%                | 0.632              | 76.50%                  | 0.644                |
+| 4         | 70.47%                | 0.631              | 54.25%                  | 0.679                |
+| 5         | 76.18%                | 0.607              | 76.50%                  | 0.628                |
+| 6         | 80.53%                | 0.586              | 78.75%                  | 0.601                |
+| 7         | 83.17%                | 0.576              | 81.75%                  | 0.596                |
+| 8         | 84.33%                | 0.573              | 82.50%                  | 0.589                |
+| 9         | 85.83%                | 0.567              | 82.75%                  | 0.582                |
+
+
 
 ## Results
 - Achieved 81% accuracy on a test dataset of 10,000 images, trained on a smaller dataset compared to existing models.
