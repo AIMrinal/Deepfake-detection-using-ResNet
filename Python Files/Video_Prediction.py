@@ -116,7 +116,7 @@ def count_real_fake_videos(video_folder):
     return real_videos, fake_videos , real_video_list , fake_video_list
 
 # Video Folder 
-video_folder = "/Users/mrinal/Desktop/Test_Videos"
+video_folder = "Path to video"
 real_videos, fake_videos ,real_video_list ,fake_video_list  = count_real_fake_videos(video_folder)
 
 #Printing Results
