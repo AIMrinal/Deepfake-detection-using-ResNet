@@ -29,8 +29,8 @@ data_transforms = transforms.Compose([
 ])
 
 # Data-Set Loading
-train_dataset = NestedImageFolder(root='/Users/mrinal/Desktop/Datasets/Preprocessed/Ds-1/Train', transform=data_transforms)
-valid_dataset = NestedImageFolder(root='/Users/mrinal/Desktop/Datasets/Preprocessed/Ds-1/Validation', transform=data_transforms)
+train_dataset = NestedImageFolder(root='Enter Path for Training Data', transform=data_transforms)
+valid_dataset = NestedImageFolder(root='Enter Path for Validation set', transform=data_transforms)
 
 train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=64, shuffle=True) 
 valid_loader = torch.utils.data.DataLoader(valid_dataset, batch_size=64, shuffle=False) 
