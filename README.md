@@ -1,5 +1,3 @@
-# Deepfake-Detection-ResNet
-
 # Deepfake Detection Using ResNet
 
 ## Overview
