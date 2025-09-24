@@ -51,7 +51,12 @@ This project focuses on developing a streamlined, efficient, and high-performing
 | 9         | 85.83%                | 0.567              | 82.75%                  | 0.582                |
 | 10        | 85.83%                | 0.567              | 82.75%                  | 0.582                |
 
+---
 
+## Loss And Accuracy Graphs
+<p align="center">
+  <img src="Assets/Graphs.png" alt="Graphs" width="60%"/>
+</p>
 
 ## Results
 - Achieved ~83% accuracy on a test dataset of 10,000 images, trained on a smaller dataset compared to existing models.
