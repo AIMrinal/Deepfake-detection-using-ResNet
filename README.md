@@ -18,6 +18,13 @@ This project focuses on developing a streamlined, efficient, and high-performing
 
 ---
 
+## System Architecture
+<p align="center">
+  <img src="Assets/Architecture.png" alt="System Architecture" width="60%"/>
+</p>
+
+---
+
 ## Methodology
 1. **Preprocessing**: Images undergo resizing, noise addition, and augmentation to enhance diversity and robustness.
 2. **Labeling**: Data is categorized into folders representing real and fake media.
